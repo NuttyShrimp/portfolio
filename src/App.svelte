@@ -32,7 +32,15 @@
         </div>
       </div>
       <div class="shrink-0 overflow-hidden rounded-lg size-28 border">
-        <image class="aspect-square w-full h-full" />
+        <picture class="aspect-square w-full h-full object-cover">
+          <source srcset="/images/me.webp" type="image/webp" />
+          <source srcset="/images/me.jpg" type="image/jpeg" />
+          <img
+            src="images/me.jpg"
+            alt="Jan Lecoutere"
+            class="aspect-square w-full h-full object-cover"
+          />
+        </picture>
       </div>
     </div>
     <div class="flex flex-col gap-2">
