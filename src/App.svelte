@@ -37,7 +37,19 @@
     </div>
     <div class="flex flex-col gap-2">
       <h2 class="text-2xl font-bold">About</h2>
-      <p class="text-gray-500"></p>
+      <p class="text-gray-500">
+        An eager to learn, young comp science student who has been fascinated
+        since childhood by computers &amp; servers. I was always the person to
+        spin up the minecraft server for his friends. Which led to searching how
+        all these programs worked. I started my journey with a bit of python,
+        HTML and CSS. Later I grouped up with a friend to work on a FiveM server
+        which was primarily in Lua. This was my first real project which also
+        introduced my to the basics of databases and JavaScript. Later I joined
+        another community and helped their server grow to the biggest in belgium
+        as of writing this. In the mean time I started at Ghent University where
+        I joined ZeusWPI which introduced me to multiple bigger projects I am
+        actively working on
+      </p>
     </div>
     <div class="flex flex-col gap-2">
       <h2 class="text-2xl font-bold">Education</h2>
