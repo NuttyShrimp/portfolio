@@ -15,6 +15,13 @@ export const skills = [
   "Java",
   "PostgreSQL/MySQL/MSSQL",
   "Git",
+  "Linux"
+]
+
+export const varia = [
+  "Leader in scouting group",
+  "Long-distance runner",
+  "Placed 3rd in the Cybersecurity Challenge Belgium 2024",
 ]
 
 export const projects: Project[] = [

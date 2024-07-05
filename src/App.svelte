@@ -3,7 +3,7 @@
   import DarkBadge from "./lib/DarkBadge.svelte";
   import IconLink from "./lib/IconLink.svelte";
   import Icon from "@iconify/svelte";
-  import { projects, skills } from "./lib/data";
+  import { projects, skills, varia } from "./lib/data";
 </script>
 
 <main class="max-w-3xl mx-auto sm:py-8 p-2">
@@ -15,6 +15,7 @@
           A eager to learn student applied information technology at HOGENT,
           following his passion to create high-quality software
         </p>
+        <p class="text-gray-500">Oh, and I use NixOS btw</p>
         <p class="flex items-center gap-2 pl-1">
           <Icon icon="mdi-world" class="size-4" /> Asse, België
         </p>
@@ -67,7 +68,7 @@
           <p>2023 - Present</p>
         </div>
         <p class="text-gray-500">
-          Bachelor of Science Applied Information Technology
+          Bachelor of Science in Applied Information Technology
         </p>
       </div>
       <div>
@@ -77,12 +78,29 @@
         </div>
         <p class="text-gray-500">Bachelor of Science in Computer Science</p>
       </div>
+      <div>
+        <div class="flex justify-between items-center">
+          <p class="font-semibold text-lg">
+            Gemeentelijke technische en beroepsschool Merchtem
+          </p>
+          <p>2019 - 2021</p>
+        </div>
+        <p class="text-gray-500">Industriële wetenschappen</p>
+      </div>
     </div>
     <div class="flex flex-col gap-2">
       <h2 class="text-2xl font-bold">Skills</h2>
       <div class="flex flex-wrap gap-2">
         {#each skills as skill}
           <DarkBadge>{skill}</DarkBadge>
+        {/each}
+      </div>
+    </div>
+    <div class="flex flex-col gap-2">
+      <h2 class="text-2xl font-bold">Varia</h2>
+      <div class="flex flex-wrap gap-2">
+        {#each varia as e}
+          <DarkBadge>{e}</DarkBadge>
         {/each}
       </div>
     </div>
