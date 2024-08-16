@@ -12,7 +12,7 @@
       <div class="gap-1 flex flex-col">
         <h1 class="font-bold text-2xl">Jan lecoutere</h1>
         <p class="text-gray-500">
-          A eager to learn student applied information technology at HOGENT,
+          An eager to learn student applied information technology at HOGENT,
           following his passion to create high-quality software
         </p>
         <p class="text-gray-500">Oh, and I use NixOS btw</p>

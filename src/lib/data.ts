@@ -37,7 +37,7 @@ export const projects: Project[] = [
   },
   {
     name: "Gonny the station chef",
-    description: "A BLE packet capture & pub sub to inform the sub of the presence of a certain devices service ",
+    description: "A BLE packet capture & pub sub to inform of the presence of certain devices near the capturer",
     link: "https://github.com/12urenloop/Ronny-the-station-chef",
     tags: ["Golang", "PostgreSQL", "BLE"]
   },
