@@ -20,6 +20,11 @@
           <Icon icon="mdi-world" class="size-4" /> Asse, België
         </p>
         <div class="flex gap-2">
+          <IconLink
+            icon="lucide:file-text"
+            href="/resume.pdf"
+            details={"Resume"}
+          />
           <IconLink icon="lucide:mail" href="mailto:jan@lecoutere.dev" />
           <IconLink icon="lucide:phone" href="tel:+32474551828" />
           <IconLink
