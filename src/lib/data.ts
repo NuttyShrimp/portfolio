@@ -26,12 +26,17 @@ export const varia = [
 
 export const projects: Project[] = [
   {
+    name: "Festival Network - Student Kick-Off",
+    description: "A temporary network for camera surveillance & cashless payment with internal redunancy & multiple, tiered uplinks",
+    tags: ["OPNsense", "Ubiquiti", "Ansible"]
+  },
+  {
     name: "Access Management",
     description: "A custom tailored Ticket, Shift & Material Management System for Student Kick-Off Ghent",
     tags: ["Ruby on Rails"]
   },
   {
-    name: "🚧 Vigilance View",
+    name: "Vigilance View",
     description: "A replay service for FiveM & RedM server owners which captures players locations and provide an accessible way of interacting with this data",
     tags: ["Rust", "React", "Golang", "Elasticsearch"]
   },
