@@ -5,11 +5,40 @@ type Project = {
   tags: string[];
 }
 
+type Work = {
+  place: string;
+  jobTitle: string;
+  start: string;
+  end: string;
+}
+
+export const workExperience: Work[] = [
+  {
+    place: "Volvo Trucks",
+    jobTitle: "Intern - C# developer",
+    start: "Feb 2026",
+    end: "May 2026",
+  },
+  {
+    place: "Citymesh",
+    jobTitle: "Studentjob - Temporary Netowrks",
+    start: "Jun 2025",
+    end: "Aug 2025",
+  },
+  {
+    place: "IDLab (UGent - UAntwerpen - imec)",
+    jobTitle: "Studentjob - Web developer",
+    start: "Aug 2024",
+    end: "Dec 2024",
+  }
+]
+
 export const skills = [
   "Typescript",
   "Golang",
   "React",
   "Vue",
+  "C#/ASP.NET",
   "Svelte(kit)",
   "Nuxt",
   "Java",
@@ -21,10 +50,16 @@ export const skills = [
 export const varia = [
   "Leader in scouting group",
   "Long-distance runner",
-  "Placed 3rd in the Cybersecurity Challenge Belgium 2024",
+  "Placed 3rd in the Cybersecurity Challenge Belgium 2024 & 2025",
 ]
 
 export const projects: Project[] = [
+  {
+    name: "Salsa",
+    description: "A webapp to interact with epson scanners for an workgroup at Ghent University to enhance their data collection workflow",
+    tags: ["Golang", "PostgreSQL", "gRPC"],
+    link: "https://git.zeus.gent/ZeusWPI/salsa"
+  },
   {
     name: "Festival Network - Student Kick-Off",
     description: "A temporary network for camera surveillance & cashless payment with internal redunancy & multiple, tiered uplinks",
@@ -34,11 +69,6 @@ export const projects: Project[] = [
     name: "Access Management",
     description: "A custom tailored Ticket, Shift & Material Management System for Student Kick-Off Ghent",
     tags: ["Ruby on Rails"]
-  },
-  {
-    name: "Vigilance View",
-    description: "A replay service for FiveM & RedM server owners which captures players locations and provide an accessible way of interacting with this data",
-    tags: ["Rust", "React", "Golang", "Elasticsearch"]
   },
   {
     name: "Gonny the station chef",
@@ -54,9 +84,9 @@ export const projects: Project[] = [
   },
   {
     name: "Scougi-Library",
-    description: "Next.js application to display the \"Scougi\", a trimesterly published paper for my local scouting group",
+    description: "Next.js application to display the \"Scougi\", a trimesterly published paper for my local scouting group. This was later re-written in Sveltekit as I was not satisified with the direction of Next.js & the company behind it.",
     link: "https://github.com/NuttyShrimp/scougi-library",
-    tags: ["React", "Next.js", "PostgreSQL"]
+    tags: ["React", "Next.js", "Svelte", "Sveltekit", "PostgreSQL"]
   },
   {
     name: "DeGrensRP",
