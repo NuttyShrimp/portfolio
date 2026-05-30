@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="flex flex-col gap-2">
-      <h2 class="text-2xl font-bold">About</h2>
+      <h2 class="text-2xl font-bold">About Me</h2>
       <p class="text-gray-500">
         An eager to learn, young comp science student who has been fascinated
         since childhood by computers &amp; servers. I was always the person to
@@ -62,7 +62,10 @@
         another community and helped their server grow to the biggest in Belgium
         as of writing this. In the meantime I started at Ghent University where
         I joined ZeusWPI which introduced me to multiple bigger projects I am
-        actively working on
+        actively working on, like the Student Kick-Off. Where I had the
+        opportunity to develop my soft and hard skills. As a result, I was
+        entrusted with leading the IT team for the 2025 and 2026 editions of the
+        festival
       </p>
     </div>
     <div class="flex flex-col gap-2">

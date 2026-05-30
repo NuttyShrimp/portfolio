@@ -63,6 +63,12 @@ export const projects: Project[] = [
     link: "https://git.zeus.gent/ZeusWPI/salsa"
   },
   {
+    name: "Hydra iOS",
+    description: "The SwiftUI version of the Hydra app, a all-in-one app for the UGent students",
+    tags: ["Swift", "SwiftUI"],
+    link: "https://hydra.ugent.be"
+  },
+  {
     name: "Festival Network - Student Kick-Off",
     description: "A temporary network for camera surveillance & cashless payment with internal redunancy & multiple, tiered uplinks",
     tags: ["OPNsense", "Ubiquiti", "Ansible"]
