@@ -21,7 +21,7 @@ export const workExperience: Work[] = [
   },
   {
     place: "Citymesh",
-    jobTitle: "Studentjob - Temporary Netowrks",
+    jobTitle: "Studentjob - Temporary Networks",
     start: "Jun 2025",
     end: "Aug 2025",
   },
@@ -37,9 +37,11 @@ export const skills = [
   "Typescript",
   "Golang",
   "React",
-  "Vue",
+  "Vue 3",
+  "Svelte",
   "C#/ASP.NET",
-  "Svelte(kit)",
+  "Swift",
+  "Sveltekit",
   "Nuxt",
   "Java",
   "PostgreSQL/MySQL/MSSQL",
@@ -48,9 +50,9 @@ export const skills = [
 ]
 
 export const varia = [
-  "Leader in scouting group",
-  "Long-distance runner",
   "Placed 3rd in the Cybersecurity Challenge Belgium 2024 & 2025",
+  "Leader in scouting group",
+  "Occasional runner",
 ]
 
 export const projects: Project[] = [
